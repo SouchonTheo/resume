@@ -1,0 +1,9 @@
+*.aux
+*.f*
+*.log
+*.nav
+*.out
+*.out
+*.snm
+*.sync*
+*.toc

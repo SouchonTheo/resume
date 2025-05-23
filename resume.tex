@@ -1,0 +1,173 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue,
+    pdftitle={CV Theo Souchon},
+    pdfauthor={Theo Souchon}
+}
+
+\newcommand{\sectiontitle}[1]{\section*{\textbf{#1}}\addcontentsline{toc}{section}{#1}}
+\newcommand{\subsectiontitle}[1]{\subsection*{\textbf{#1}}\addcontentsline{toc}{subsection}{#1}}
+
+\definecolor{darkblue}{rgb}{0.12,0.12,0.3}
+
+\begin{document}
+
+\begin{center}
+    \vspace{-1em}
+    {\Huge \textbf{Theo Souchon}} \\
+    \vspace{0.5em}
+    {\Large Software Engineer} \\
+    \vspace{0.3em}
+    souchontheo24@gmail.com \textperiodcentered{} +33603600096
+    \textperiodcentered{} \faLinkedin \hspace{0.01em} \href{https://www.linkedin.com/in/theo-souchon/}{Theo Souchon} \textperiodcentered{} \faGithub \hspace{0.01em} \href{https://github.com/souchontheo}{souchontheo}
+\end{center}
+
+\rule{\textwidth}{0.5pt}
+
+% --- Professional Summary ---
+\sectiontitle{Professional Summary}
+\textit{Results-driven Software Engineer with experience since 2021 in backend development, specializing in Scala, Rust, and high-performance systems. Proven ability in leading critical feature development for financial services, drastically improving system efficiency (e.g., data freshness from 20min to 1min) and development agility (e.g., new provider integration from 3 months to 2 weeks). Passionate about clean architecture, performance optimization, and collaborative PI planning. Seeking to leverage expertise in distributed systems and explore new technologies.}
+\vspace{0.5em}
+
+% --- Work Experience ---
+\sectiontitle{Work Experience}
+
+\textbf{Ledger} \hfill \textit{Software Engineer (2023-now)} \\
+\textit{Backend Development \& System Architecture}
+\begin{itemize}[leftmargin=*,label=\tiny$\bullet$]
+  \item Applied \textbf{functional and object-oriented programming} principles with \textbf{Scala} for robust and maintainable applications.
+  \item Lead backend developer for Ledger's swap service; spearheaded architectural simplifications reducing new provider integration time from 3 months to 2 weeks.
+  \item Implemented solutions to drive projects, guaranteeing \textbf{high availability} for diverse quote delivery.
+  \item Maintained integrations with providers and served as the technical point of contact for external collaborations.
+  \item Championed \textbf{clean code practices}, significantly improving project architecture maintainability and scalability.
+\end{itemize}
+\textit{Observability \& Performance Optimization}
+\begin{itemize}[leftmargin=*,label=\tiny$\bullet$]
+  \item Designed and implemented relevant dashboards for proactive and detailed application \textbf{observability}.
+  \item Revamped \textbf{SQL queries} from naive to concurrent calls, improving data freshness for critical services from 20 minutes to 1 minute.
+  \item Integrated and utilized \textbf{RabbitMQ} for asynchronous message handling across services.
+  \item Leveraged \textbf{load testing (Gatling)} to identify key code optimizations, reducing application stress and enabling more accurate caching strategies.
+  \item Maintained and optimized load testing tools and monitoring solutions (\textbf{Runscope, Datadog}).
+\end{itemize}
+\textit{CI/CD \& Team Collaboration}
+\begin{itemize}[leftmargin=*,label=\tiny$\bullet$]
+  \item Implemented and maintained robust \textbf{CI/CD pipelines} using \textbf{ArgoCD, Kubernetes, and GitHub Actions}.
+  \item Initiated and contributed to side projects developed in \textbf{Rust} at Ledger, exploring new technologies.
+  \item Provided active \textbf{on-call support} for critical projects, ensuring rapid incident resolution.
+  \item Facilitated onboarding for new developers and actively contributed to Program Increment (PI) planning.
+\end{itemize}
+\vspace{0.5em}
+
+\noindent\textbf{PlayMakers} \hfill \textit{Software Engineer Intern (2023)} \\
+\textit{Backend Development}
+\begin{itemize}[leftmargin=*,label=\tiny$\bullet$]
+    \item Developed a comprehensive \textbf{test infrastructure} from scratch for thorough testing and quality assurance.
+    \item Established \textbf{GitHub Actions} for efficient \textbf{Continuous Integration and Continuous Deployment}.
+    \item Conducted in-depth \textbf{game simulations} to optimize gameplay mechanics.
+    \item Led the development of robust game backend systems, ensuring multiplayer functionality and data synchronization using \textbf{Node.js}.
+    \item Built a complete \textbf{AWS infrastructure} from the ground up, configuring services and resources to support project requirements.
+    \item Applied principles of \textbf{Object-Oriented Programming (OOP)} to design and develop software systems.
+\end{itemize}
+\vspace{0.5em}
+
+\noindent\textbf{MyNFT} \hfill \textit{Software Engineer Intern (2022)} \\
+\textit{Backend Development}
+\begin{itemize}[leftmargin=*,label=\tiny$\bullet$]
+    \item Designed and developed web applications using modern technologies for a seamless user experience.
+    \item Leveraged \textbf{Node.js} to build scalable and efficient server-side applications.
+    \item Implemented \textbf{Web3} technologies for blockchain integration and decentralized applications (DApps).
+    \item Utilized \textbf{PostgreSQL} as a robust relational database management system.
+    \item Employed \textbf{Postgraphile} for automatic GraphQL API generation.
+    \item Implemented \textbf{DevOps} practices for automation, continuous integration, and deployment.
+\end{itemize}
+\vspace{0.5em}
+
+\noindent\textbf{Genvia/Schlumberger} \hfill \textit{IoT Engineer intern (2021)} \\
+\textit{Backend/Frontend Development}
+\begin{itemize}[leftmargin=*,label=\tiny$\bullet$]
+    \item Worked on \textbf{IoT} projects involving the connectivity of devices and sensors to gather and analyze data.
+    \item Contributed to \textbf{Industry 4.0} initiatives, incorporating advanced technologies for smart manufacturing and automation.
+    \item Utilized \textbf{UML} for modeling and visual representation of software systems and designs.
+    \item Proficient in using \textbf{MQTT Sparkplug B} for efficient communication and data exchange in industrial and IoT applications.
+    \item Used \textbf{Python} on the Ignition platform and proficient in \textbf{Java}.
+\end{itemize}
+
+% --- Education ---
+\sectiontitle{Education}
+
+\noindent\textbf{ENSEEIHT} \hfill \textit{Software Engineering Diploma (2020-2023)} \\
+Specializing in a wide range of computer science disciplines including: Big Data, Artificial Intelligence, Web Development, Object-Oriented Programming, Functional Programming, Imperative Programming, and Declarative Programming.
+\vspace{0.5em}
+
+\noindent\textbf{Kyoto University Of Advanced Science (KUAS)} \hfill \textit{Exchange Semester (2022-2023)} \\
+Focused on \textbf{metaprogramming}. \\
+Proficient Languages: C.
+
+% --- Project Experience ---
+\sectiontitle{Project Experience}
+
+\noindent\textbf{\href{https://github.com/souchontheo/oxrise}{Oxrise}} \\
+Oxrise is a Rust-based project designed to interact with macOS windows and applications. It provides utilities to detect the window under the mouse cursor, retrieve window information, and programmatically focus on applications, leveraging macOS-specific APIs.
+\vspace{0.5em}
+
+\noindent\textbf{\href{https://github.com/souchontheo/git-flip}{Git flip}} \\
+Git flip is a CLI tool streamlining the process for developers to quickly switch between multiple Git accounts by automating updates to SSH keys and Git configurations.
+\vspace{0.5em}
+
+\noindent\textbf{CCMETA/PARSIMONY} \hfill \textit{(7 months)}
+\begin{itemize}[leftmargin=*,label=\tiny$\bullet$]
+    \item Contributed to a pioneering \textbf{metaprogramming} project aimed at enhancing the \textbf{C} programming language's dynamism.
+    \item Developed a groundbreaking mechanism for \textbf{injecting code dynamically} at compile time.
+    \item Implemented features that significantly increased the expressiveness of the C language while maintaining safety.
+    \item Effectively reduced code duplication by enabling the reuse of dynamic code components.
+    \item Facilitated the creation of intricate software systems with greater efficiency.
+    \item Proficient Languages: C.
+\end{itemize}
+\vspace{0.5em}
+
+% --- Technical Skills ---
+\sectiontitle{Technical Skills}
+
+\noindent\textbf{Programming Languages:} \\
+\textbf{Core:} Scala. \\
+\textbf{Strong Proficiency:} Rust, C, Zig. \\
+\textbf{Proficient:} Java, Python, Go. \\
+\textbf{Familiar with:} OCaml, Ada, Julia, Matlab, C++, JavaScript, TypeScript, Solidity.
+\vspace{0.5em}
+
+\noindent\textbf{Programming Paradigms:} Object-Oriented Programming (OOP), Functional Programming, Declarative Programming, Imperative Programming, Test-Driven Development (TDD).
+\vspace{0.5em}
+
+\noindent\textbf{Tools \& Technologies:} SQL (PostgreSQL), NoSQL, RabbitMQ, Kubernetes, ArgoCD, GitHub Actions, Terraform, Ansible, Datadog, Gatling, Runscope.
+\vspace{0.5em}
+
+\noindent\textbf{Methodologies:} Agile (Scrum, Kanban).
+
+% --- Languages ---
+\sectiontitle{Languages}
+
+\textbf{French:} Native speaker \\
+\textbf{English:} Cambridge Linguaskill Business (168) \\
+\textbf{Japanese:} Beginner \\
+\textbf{Spanish:} B1
+
+% --- Hobbies ---
+\sectiontitle{Hobbies}
+
+\textbf{Travels:} European countries, Japan, USA, Thailand, North Africa \\
+\textbf{Football:} Ten years in different clubs \\
+\textbf{Video Games:} Offline and competitive games
+
+\end{document}
